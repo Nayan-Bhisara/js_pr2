@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a JavaScript program to</title>
+</head>
+<body>
+    
+<script type="text/javascript">
+
+    var a = parseInt(prompt("Enter num A : "));
+    var b = parseInt(prompt("Enter num B : "));
+    var c = parseInt(prompt("Enter num C : "));
+    var d = parseInt(prompt("Enter num D : "));
+
+    if(a > b){
+        if(a > c){
+            if(a > d){
+                document.write(`<h2>A is max... </h2>`);
+            }else{
+                document.write(`<h2>D is max... </h2>`);
+            }
+        }else{
+           if(c > d){
+            document.write(`<h2>C is max... </h2>`)
+           }else{
+            document.write(`<h2>D is max... </h2>`)
+           }
+        }
+    }else{
+        if(b > c){
+            if(b > d){
+                document.write(`<h2>B is max... </h2>`);
+            }else{
+                document.write(`<h2>D is max... </h2>`);
+            }
+        }else{
+            if(c > d){
+            document.write(`<h2>C is max... </h2>`);
+           }else{
+            document.write(`<h2>D is max... </h2>`);
+           }
+        }
+    }
+
+</script>
+
+</body>
+</html>
